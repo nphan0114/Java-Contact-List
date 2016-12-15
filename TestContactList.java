@@ -23,7 +23,7 @@ public class TestContactList {
 		 * Create a new person object
 		 * Adds person to the list
 		 */
-     contactList.runLoop();
+     	contactList.runLoop();
         
 		try {  // CD
 			FileOutputStream fos = new FileOutputStream("output");  // CD
