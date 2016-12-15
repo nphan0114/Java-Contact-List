@@ -84,7 +84,7 @@ public class ContactList implements Serializable{
 						break; // NP
 				case 2: printList(); // NP
 						break; // NP
-				case 3: System.out.print("Please enter the last name you want to search for: " ); // MM
+				case 3: System.out.print("Search by last name: " ); // MM
 						String nameSearched = read.nextLine(); // MM
 						searchByLastName(nameSearched); // MM
 						break; // MM
