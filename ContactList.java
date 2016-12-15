@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class ContactList implements Serializable{
-	private static final long serialVersionUID = -2978556538540681687L;
+	private static final long serialVersionUID = -2978556538540681687L; // Unique ID for saving to disk class
 	private ArrayList<Contact> contacts = new ArrayList<Contact>();
 	private static transient Scanner read = new Scanner(System.in);
 	
