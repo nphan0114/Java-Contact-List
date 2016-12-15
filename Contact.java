@@ -17,7 +17,7 @@ public class Contact implements Comparable<Contact>, Serializable{
 	private transient Scanner read = new Scanner(System.in);
 	
 	/*
-	 * Constructor prompts user for contact info then stores.
+	 * Prompt user for contact info then stores.
 	 */
 	protected void read() {
 		System.out.print("First Name: "); // NP
